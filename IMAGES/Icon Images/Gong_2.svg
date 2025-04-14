@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Gong_1" data-name="Gong 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #ccdedb;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #00382f;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #00382f;
+      }
+
+      .cls-4 {
+        fill: #4b897f;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x="1.25" y="1.12" width="97.88" height="97.75" rx="25.05" ry="25.05"/>
+  <circle class="cls-2" cx="50.12" cy="50.12" r="18.94"/>
+  <circle class="cls-1" cx="50.12" cy="50.12" r="25.69"/>
+  <circle class="cls-1" cx="50.12" cy="50.12" r="34.19"/>
+  <circle class="cls-3" cx="50.12" cy="50.12" r="41.31"/>
+  <circle class="cls-1" cx="50.12" cy="50.12" r="47.04"/>
+</svg>

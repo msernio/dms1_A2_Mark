@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Bird_1" data-name="Bird 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #4b897f;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #00382f;
+      }
+
+      .cls-4 {
+        fill: #ccdedb;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x="1.25" y="1.25" width="97.75" height="97.75" rx="25.05" ry="25.05"/>
+  <g>
+    <path class="cls-3" d="M47.64,35.14s-2.19-15.9-21.24-4.25c0,0,8.5,7.68,9.59,6.85s-16.04,10.83,3.29,24.81"/>
+    <path class="cls-3" d="M70.26,72.97l-12.2-5.89s-24.12-13.84-11.92-24.53c0,0,13.02,3.29,12.75,36.46,0,0-8.09-9.73-13.43-12.2h-19.33"/>
+    <line class="cls-1" x1="77.11" y1="66.93" x2="66.14" y2="66.94"/>
+    <circle class="cls-2" cx="35.14" cy="30.84" r=".37"/>
+  </g>
+  <line class="cls-1" x1="25.75" y1="66.75" x2="44.88" y2="66.75"/>
+</svg>

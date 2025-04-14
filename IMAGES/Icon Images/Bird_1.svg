@@ -2,30 +2,35 @@
 <svg id="Bird_1" data-name="Bird 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
     <style>
-      .cls-1, .cls-2 {
-        stroke: #4b897f;
-      }
-
-      .cls-1, .cls-2, .cls-3 {
+      .cls-1, .cls-2, .cls-3, .cls-4 {
         stroke-miterlimit: 10;
         stroke-width: 2px;
       }
 
+      .cls-1, .cls-3 {
+        stroke: #4b897f;
+      }
+
       .cls-2 {
+        fill: #00382f;
+        stroke: #00382f;
+      }
+
+      .cls-3, .cls-4 {
         fill: none;
       }
 
-      .cls-3 {
-        fill: #00382f;
-        stroke: #000;
+      .cls-4 {
+        stroke: #ccdedb;
       }
     </style>
   </defs>
-  <rect class="cls-3" x="1.13" y="1.12" width="97.75" height="97.75" rx="25.05" ry="25.05"/>
+  <rect class="cls-2" x="1.13" y="1.12" width="97.75" height="97.75" rx="25.05" ry="25.05"/>
   <g>
-    <path class="cls-2" d="M47.52,35.02s-2.19-15.9-21.24-4.25c0,0,8.5,7.68,9.59,6.85s-16.04,10.83,3.29,24.81"/>
-    <path class="cls-2" d="M70.13,72.84l-12.2-5.89s-24.12-13.84-11.92-24.53c0,0,13.02,3.29,12.75,36.46,0,0-8.09-9.73-13.43-12.2h-19.33"/>
-    <line class="cls-2" x1="76.99" y1="66.81" x2="66.02" y2="66.82"/>
+    <path class="cls-3" d="M47.52,35.02s-2.19-15.9-21.24-4.25c0,0,8.5,7.68,9.59,6.85s-16.04,10.83,3.29,24.81"/>
+    <path class="cls-3" d="M70.13,72.84l-12.2-5.89s-24.12-13.84-11.92-24.53c0,0,13.02,3.29,12.75,36.46,0,0-8.09-9.73-13.43-12.2h-19.33"/>
+    <line class="cls-4" x1="76.99" y1="66.81" x2="66.02" y2="66.82"/>
     <circle class="cls-1" cx="35.01" cy="30.72" r=".37"/>
   </g>
+  <line class="cls-4" x1="25.62" y1="66.62" x2="44.75" y2="66.62"/>
 </svg>
