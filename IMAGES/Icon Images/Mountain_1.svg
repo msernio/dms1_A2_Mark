@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Mountain_1" data-name="Mountain 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-5 {
+        fill: #00382f;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #ccdedb;
+      }
+
+      .cls-4 {
+        fill: #4b897f;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="1.62" y="1.5" width="96.88" height="96.88" rx="25.05" ry="25.05"/>
+  <line class="cls-2" x1="62.81" y1="71.09" x2="55.47" y2="66.87"/>
+  <g>
+    <g>
+      <path class="cls-4" d="M77.37,97.2h-41.52l-10.97-54.25,30.79,18.09,6.62-34.71,34.44,54.98s-1.97,12.07-19.34,15.89Z"/>
+      <path class="cls-3" d="M22.09,96.94h14.38l-11.72-54.88L2.52,58.46l-.02,17.41s3.08,17.74,19.59,21.07Z"/>
+      <polygon class="cls-3" points="61.76 26.71 37.28 49.56 55.59 60.43 61.76 26.71"/>
+    </g>
+    <polygon class="cls-5" points="27.25 43.66 23.68 41.6 25.68 39.38 29.25 41.44 27.25 43.66"/>
+    <polygon class="cls-5" points="58.98 25.64 61.4 23.07 63 24.99 59.82 27.62 58.98 25.64"/>
+  </g>
+</svg>
