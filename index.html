@@ -6,6 +6,17 @@
         </title>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+        <style>
+                .row{
+                    width: 720px;
+                    margin: 20px auto 20px auto;
+                }
+                .image-container{
+                    display: table-cell;
+                    vertical-align:middle;
+                    padding: 20px;
+                }
+        </style>
     </head>
 
     <body style="background-color: rgb(141, 144, 143);">
@@ -26,23 +37,33 @@
             This is the second sentence after the break.
         </p> -->
         
-        <img id="Icon1" src="IMAGES/Icon Images/Bird_1.svg" width="150"/>
-        <img id="Icon2" src="IMAGES/Icon Images/Fire_1.svg" width="150"/>
-        <img id="Icon3" src="IMAGES/Icon Images/Mountain_1.svg" width="150"/>
-        <img id="Icon4" src="IMAGES/Icon Images/Rain_1.svg" width="150"/>
-        <img id="Icon5" src="IMAGES/Icon Images/Tree_1.svg" width="150"/>
-        <img id="Icon6" src="IMAGES/Icon Images/Wave_1.svg" width="150"/>
-        <img id="Icon7" src="IMAGES/Icon Images/Wind_1.svg" width="150"/>
-        <img id="Icon8" src="IMAGES/Icon Images/Grass_1.svg" onmouseover="this.src='IMAGES/Icon Images/Grass2.svg';" onmouseout="this.src='IMAGES/Icon Images/Grass_1.svg'" width="150"/>
-        <img id="Icon9" src="IMAGES/Icon Images/Gong_1.svg" width="150"/>
-        
+        <div class="row">
+            <div class="image-container"> <img id="Icon1" src="IMAGES/Icon Images/Bird_1.svg" width="150"/></div>
+            <div class="image-container"> <img id="Icon2" src="IMAGES/Icon Images/Fire_1.svg" width="150"/></div>
+            <div class="image-container"> <img id="Icon3" src="IMAGES/Icon Images/Mountain_1.svg" width="150"/></div>
+        <div>
+
+        <div class="row">
+            <div class="image-container"> <img id="Icon4" src="IMAGES/Icon Images/Rain_1.svg" width="150"/></div>
+            <div class="image-container"> <img id="Icon5" src="IMAGES/Icon Images/Tree_1.svg" width="150"/></div>
+            <div class="image-container"> <img id="Icon6" src="IMAGES/Icon Images/Wave_1.svg" width="150"/></div>
+        <div>
+
+        <div class="row">
+            <div class="image-container"> <img id="Icon7" src="IMAGES/Icon Images/Wind_1.svg" width="150"/></div>
+            <div class="image-container"> <img id="Icon8" src="IMAGES/Icon Images/Grass_1.svg" onmouseover="this.src='IMAGES/Icon Images/Grass2.svg';" onmouseout="this.src='IMAGES/Icon Images/Grass_1.svg'" width="150"/></div>
+            <div class="image-container"> <img id="Icon9" src="IMAGES/Icon Images/Gong_1.svg" width="150"/></div>
+        <div>
+
         <script>
             var sound1 = new buzz.sound("SOUNDS/Birds Sounds_mixdown.wav");
             var sound2 = new buzz.sound("SOUNDS/FireCrackling_mixdown.wav");
             var sound4 = new buzz.sound("SOUNDS/RainSounds_mixdown.wav");
-            var sound6 = new buzz.sound("SOUNDS/WaveSounds_mixdown.wav");
             var sound5 = new buzz.sound("SOUNDS/Forest_mixdown.wav");
-
+            var sound6 = new buzz.sound("SOUNDS/WaveSounds_mixdown.wav");
+            var sound7 = new buzz.sound("SOUNDS/WindSounds_mixdown.wav");
+            var sound8 = new buzz.sound("SOUNDS/Grass1_mixdown.wav");
+            var sound9 = new buzz.sound("SOUNDS/Bell1_mixdown.wav");
 
             window.onload = function() {
                 document.getElementById('Icon1').addEventListener('click', function() {sound1.play();});
@@ -50,6 +71,9 @@
                 document.getElementById('Icon4').addEventListener('click', function() {sound4.play();});
                 document.getElementById('Icon5').addEventListener('click', function() {sound5.play();});
                 document.getElementById('Icon6').addEventListener('click', function() {sound6.play();});
+                document.getElementById('Icon7').addEventListener('click', function() {sound7.play();});
+                document.getElementById('Icon8').addEventListener('click', function() {sound8.play();});
+                document.getElementById('Icon9').addEventListener('click', function() {sound9.play();});
             };
             
         </script>
